@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 cd "$(dirname "${BASH_SOURCE}")"
-#git pull origin kolibri
+git pull origin kolibri
 
 function doIt() {
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
